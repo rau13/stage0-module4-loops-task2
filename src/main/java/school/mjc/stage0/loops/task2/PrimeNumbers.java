@@ -4,10 +4,10 @@ public class PrimeNumbers {
     public void printPrimeNumbers(int printToInclusive) {
         int counter = 1;
         while(counter <= printToInclusive){
-            counter++;
             if(counter%counter==0 &&  counter%1==0){
                 System.out.println(counter);
             }
+            counter++;
         }
     }
 }
